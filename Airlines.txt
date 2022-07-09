@@ -1,0 +1,27 @@
+Aeorilíneas disponibles:
+
+Aeromex
+
+Volaris
+
+Fly Emi
+
+Claves de destinos posibles
+
+#  País 	              Vuelo
+1.Alemania	          D1459
+2.Brasil	          PP1589
+3.Canadá	          CF2356
+4.Catar	              A78912
+5.Chile	              CC4123
+6.China	              B9083
+7.Dinamarca	          OY3596
+8.Ecuador	          HC5460
+9.Emiratos Árabes	  Proximamente
+10.España	          EC545
+11.Estados Unidos	  N4569
+12.Indonesia	      PK8462
+13.Japón	          JA2465
+14.México	          XA1575
+15.Singapur	          9V364
+16.Tailandia	      HS3456

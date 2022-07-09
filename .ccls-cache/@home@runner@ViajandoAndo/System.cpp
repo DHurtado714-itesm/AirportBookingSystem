@@ -9,6 +9,7 @@ System::System(){
   cancelar = "";
 }
 
+//getters
 string System::getDisponibilidad(){
   return disponibilidad;
 }
@@ -22,17 +23,17 @@ string System::getCancelar(){
 }
 
 
-
+//setters
 void System::setDisponibilidad(string disponibilidad){
-
+  cout<<"Los vuelos disponibles son:"<<endl;
 }
 
 
 void System::setReservar(string reservar){
-
+  cout<<"Vuelo reservado"<<endl;
 }
 
 
 void System::setCancelar(string cancelar){
-  
+  cout<<"Vuelo cancelado"<<endl;
 }

@@ -5,40 +5,49 @@
 using namespace std;
 
 Passenger::Passenger(){
+ 
   name = "";
-  phone = 0;
+ 
   user = "";
-  password = "";
+ 
+  phone="";
   
 }
 
-Passenger::~Passenger(){
-  cout<<"ok"<<endl;
+
+string Passenger::getName(){
+ 
+  return name;
+
+}
+
+void Passenger::setName(string nom){
+
+  name=nom;
+
+}
+
+string Passenger::getPhone(){
+
+  return phone;
+
+}
+
+void Passenger::setPhone(string tel){
+
+  phone=tel;
+
+}
+
+string Passenger::getUser(){
+
+  return user;
+
 }
 
 
-void Passenger::Name(){
-  cin>>name;
-}
+void Passenger::setUser(string us){
 
-void Passenger::setName(string name){
-  cout<<"ok"<<endl;
-}
+  user=us;
 
-void Passenger::Password(){
-  cin >> password;
-}
-
-void Passenger::setPassword(string password){
-  cout<<"ok"<<endl;
-}
-
-
-void Passenger::User(){
-  cin>>user;
-}
-
-
-void Passenger::setUser(string user){
-  cout<<"ok"<<endl;
-}
+};

@@ -2,29 +2,38 @@
 
 using namespace std;
 
-class Flight{
-private:
-  string date, hour, name;
-  int flightNumber, duration;
-  float price;
+//creación de clase
+class Flight{//datos privados
 
-public:
-  Flight();
-  ~Flight();
-  
-  //getters
-  string getDate();
-  string getHour();
-  string getAirplaneModel();
-  int getDuration();
-  int getFlightNumber();
-  float getPrice();
-  
-  //setters
-  void setDate(string const&);
-  void setHour(string const&);
-  void setAirplaneModel(string const&);
-  void setDuration(int const&);
-  void setPrice(float const&);
-  void setFlightNumber(int const&);
+  private:
+
+    string date, hour, flightNumber, name;
+    int duration;
+    float price;
+
+  public: //datos públicos
+
+    Flight();
+
+    bool seats[4][30];
+    
+    //getters
+    
+    string getDate();
+    string getHour();
+    string getName();
+    int getDuration();
+    string getFlightNumber();
+    float getPrice();
+    
+    //setters
+
+    void setDate(string fecha);
+    void setHour(string hora);
+    void setName(string nomb);
+    void setDuration(int dur);
+    void setPrice(float precio);
+    void setFlightNumber(string vuelNumb);
+    void vuelos();
+
 };
